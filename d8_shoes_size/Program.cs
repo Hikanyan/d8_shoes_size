@@ -5,9 +5,11 @@ class Program
 {
     static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
-        var line = Console.ReadLine();
-        Console.WriteLine("XXXXXX");
+        float US = 0.0f;
+        float UK = 0.0f;
+        float s =float.Parse( Console.ReadLine());
+        US = (float)(s - 18.0);
+        UK = (float)(s - 18.5);
+        Console.WriteLine($"{US.ToString("0.0")} {UK.ToString("0.0")}");
     }
 }
